@@ -1,0 +1,289 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Khula';
+    font-weight: 400;   
+}
+
+
+/* Header */
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    background-color: #FAFAFA;
+    height: 116px;
+}
+
+.navigation {
+    height: 116px;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}   
+
+.logo {
+    height: 60px;
+    width: 50px;
+    padding-top: 30px;
+}
+
+.menu {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin: auto;
+    padding-left: 71px;
+}
+
+.menu-text {
+    margin-right: 71px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.email {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/* Main */
+
+.main {
+    height: 700px;
+    background-color: #F1F1F2;
+}
+
+.container-main {
+    display: flex;
+    width: 1440px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-main {
+    height: 700px;
+    width: 720px;
+}
+
+.container-text {
+    display: block;
+    margin: auto;
+    padding-top: 66px;
+    width: 433px;
+    height: 634px;
+}
+
+.tagline {
+    font-size: 65px;
+}
+
+.greeting {
+    font-size: 18px;
+}
+
+
+/* About-section */
+
+.about {
+    height: 820px;
+}
+
+.about-container {
+    height: 820px;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.about-info {
+    padding-top: 87px;
+    padding-left: 458px;
+}
+
+.about-info-header {
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 29px;
+    padding-left: 167px;
+}
+
+.about-info-text {
+    margin: 0;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CTA-section */
+
+.cta {
+    height: 240px;
+    background-color:#F7941E;
+}
+
+.cta-container {
+    height: 240px;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.cta-content {
+    width: 403px;
+    height: 90px;
+    padding-top: 65px;
+    padding-left: 235px;
+
+}
+
+.cta-content-ques {
+    margin: 0;
+    font-size: 32px;
+
+}
+
+.call-action {
+    margin: 0;
+    font-size: 32px;
+
+}
+
+.cta-btn-container {
+    width: 210px;
+    height: 63px;
+    padding-left: 353px;
+    padding-top: 79px; 
+}
+
+.cta-btn-hover {
+    width: 210px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 63px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.cta-btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.cta-btn-hover:focus {
+    outline: none;
+}
+
+.cta-btn-hover.color {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75)
+}
+
+/* Footer */
+
+.footer {
+    background: #FAFAFA;
+    height: 410px;
+}
+
+.container-footer {
+    width: 1440px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.logo-section {
+    width: 1440px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+}
+
+.footer-logo {
+    width: 60px;
+    height: 60px;
+    padding-top: 45px;
+    padding-left: 690px;
+}
+
+.divi-container {
+    width: 1440px;
+    height: 80px;
+
+}
+
+.footer-divider {
+    width: 1000px;
+    height: 1px;
+    padding-left: 220px;
+    padding-top: 40px;
+}
+
+.social-container {
+    width: 1440px;
+    height: 71px; 
+}
+
+.feedback-links {
+    width: 312px;
+    height: 40px;
+    padding-top: 16px;
+    padding-left: 572px;
+}
+
+.feedback-icons {
+    margin-right: 16px;
+}
+
+.createdbycont {
+    width: 1440px;
+    height: 108px;
+}
+
+.footer-copy-container {
+    display: flex;
+    padding-top: 44px;
+    padding-left: 626px;
+}
+
+.copy-text {
+    margin-right: 35px;
+}
+
+
+
+
+
+
