@@ -89,6 +89,11 @@ a {
     font-size: 18px;
 }
 
+.main-image {
+    width: 720px;
+    height: 700px;
+    border-radius: 50%;
+}
 
 /* About-section */
 
@@ -221,18 +226,6 @@ a {
     margin-right: auto;
 }
 
-.works {
-    height: 800px;
-}
-
-.works-container {
-    width: 1440px;
-    height: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
 
 /* CTA-section */
 
@@ -309,6 +302,89 @@ a {
 .cta-btn-hover.color {
     background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
     box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75)
+}
+
+
+/* Works */
+
+.works {
+    height: 800px;
+}
+
+.works-container {
+    width: 1440px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.works-header {
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    padding-top: 67px;
+}
+
+.works-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.work-card {
+    display: block;
+    background: #fff;
+    padding: 24px;
+    max-width: 380px;
+    box-shadow: 0 5px 20px 0 rgb(255, 157, 0, 0.8);
+}
+
+.work-card-wrap {
+    padding-bottom: 100%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    background-position-y: 30%;
+    margin-bottom: 1rem;
+    border-radius: 40px;
+}
+
+.work-card-img-1 {
+    background-image: url("/image/works/telegram-bot.png")
+}
+
+.work-card-img-2 {
+    background-image: url("/image/works/team1_ppe.png")
+}
+
+.work-card-img-3 {
+    background-image: url("/image/works/emp_in_the_hero.png")
+}
+  
+.work-card-header {
+   font-size: 1.3rem;
+   line-height: 1;
+   text-decoration-line: none;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   margin-bottom: 12px;
+   color: inherit;
+   transition: color .2s ease-out;  
+}
+
+.work-card-text {
+    font-size: 1.1rem;
+    line-height: 150%;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-clamp: initial;
+    -webkit-line-clamp: initial;
+    transition-property: -webkit-line-clamp, line-clamp;
+    transition-duration: 300;
+    transition-timing-function: ease-out;
 }
 
 /* Footer */
