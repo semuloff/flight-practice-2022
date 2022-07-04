@@ -351,7 +351,7 @@ a {
 }
 
 .work-card-img-1 {
-    background-image: url("https://github.com/semuloff/flight-practice-2022/blob/dev/image/works/telegram-bot.png?raw=true")
+    background-image: url("/image/works/telegram-bot.png")
 }
 
 .work-card-img-2 {
