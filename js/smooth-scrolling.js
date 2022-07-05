@@ -6,7 +6,7 @@ $('body > header > div > div > div.menu a').on('click', function (e) {
   
       $('html, body')
         .animate({
-          scrollTop: $(hash).offset().top
+          scrollTop: $(hash).offset().top - 90
         }, 1000);
     }
   });
