@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-size: 20px;
-    font-family: 'Khula';
+    font-family: 'Maven Pro', sans-serif;
     font-weight: 400;   
 }
 
@@ -58,11 +58,13 @@ a {
     margin-right: 71px;
     margin-top: auto;
     margin-bottom: auto;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .email {
     margin-top: auto;
     margin-bottom: auto;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 
@@ -96,10 +98,12 @@ a {
 
 .tagline {
     font-size: 65px;
+    font-family: 'Michroma', sans-serif;
 }
 
 .greeting {
     font-size: 18px;
+    font-family: 'PT Sans Caption', sans-serif;
 }
 
 .main-image {
@@ -374,7 +378,7 @@ a {
 }
   
 .work-card-header {
-   font-size: 1.3rem;
+   font-size: 1.3rem; 
    line-height: 1;
    text-decoration-line: none;
    font-weight: 700;
@@ -389,7 +393,7 @@ a {
     font-size: 1.1rem;
     line-height: 150%;
     font-weight: 300;
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 0;
     line-clamp: initial;
     -webkit-line-clamp: initial;
@@ -470,4 +474,5 @@ a {
 
 .copy-text {
     margin-right: 35px;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
